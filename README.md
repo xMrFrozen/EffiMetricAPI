@@ -24,6 +24,14 @@ This project is under active development and is being continuously improved.
 
 - Smart Update: Partial data preservation on updates.
 
+- FluentValidation Integration: Centralized and clean validation layer.
+
+- DTO Architecture: Prevents direct exposure of entities by introducing controlled data transfer objects.
+
+- Global Exception Handling: Consistent and professional JSON error responses.
+
+- Automatic Rank Calculation: Dynamic rank assignment based on efficiencyScore.
+
 ## Planned Features
 - Dashboard Integration: Visualizing performance trends.
 
