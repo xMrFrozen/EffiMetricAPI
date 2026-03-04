@@ -128,3 +128,7 @@ C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\Ef
 C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\obj\Debug\net8.0\EffiMetricAPI.pdb
 C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\obj\Debug\net8.0\EffiMetricAPI.genruntimeconfig.cache
 C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\obj\Debug\net8.0\ref\EffiMetricAPI.dll
+C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\obj\Debug\net8.0\EffiMetricAPI.sourcelink.json
+C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\bin\Debug\net8.0\FluentValidation.AspNetCore.dll
+C:\Users\efeba\OneDrive\Desktop\Desktop\VS\WebAPI\EffiMetricApi\EffiMetricAPI\EffiMetricAPI\bin\Debug\net8.0\FluentValidation.DependencyInjectionExtensions.dll

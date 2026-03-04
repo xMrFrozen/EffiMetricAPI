@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("EffiMetricAPI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8dd2a83ab2122182ad62ea370b1ddb6062c73230")]
 [assembly: System.Reflection.AssemblyProductAttribute("EffiMetricAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("EffiMetricAPI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

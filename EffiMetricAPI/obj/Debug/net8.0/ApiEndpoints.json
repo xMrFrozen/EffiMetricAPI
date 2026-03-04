@@ -34,14 +34,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "employee",
-        "Type": "EffiMetricAPI.Models.Employee",
+        "Name": "employeeDto",
+        "Type": "EffiMetricAPI.DTOs.EmployeeDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "EffiMetricAPI.Models.Employee",
+        "Type": "EffiMetricAPI.DTOs.EmployeeDto",
         "MediaTypes": [
           "text/plain",
           "application/json",

@@ -1,5 +1,6 @@
 ﻿using EffiMetricAPI.Data;
 using EffiMetricAPI.Models;
+using EffiMetricAPI.DTOs;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
@@ -28,10 +29,19 @@ namespace EffiMetricAPI.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
+        public async Task<ActionResult<EmployeeDto>> PostEmployee(EmployeeDto employeeDto)
         {
+            var employee = new Employee
+            {
+                fullName = employeeDto.Name,
+                efficiencyScore = employeeDto.Score,
+                totalEarnings = employeeDto.Earned,
+                Position = employeeDto.Position
+            };
+
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
+
             return CreatedAtAction(nameof(GetEmployees), new { id = employee.Id }, employee);
         }
 

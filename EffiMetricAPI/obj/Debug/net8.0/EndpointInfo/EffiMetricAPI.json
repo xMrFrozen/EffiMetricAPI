@@ -60,17 +60,17 @@
           "content": {
             "application/json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeDto"
               }
             },
             "text/json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeDto"
               }
             },
             "application/*+json": {
               "schema": {
-                "$ref": "#/components/schemas/Employee"
+                "$ref": "#/components/schemas/EmployeeDto"
               }
             }
           }
@@ -81,17 +81,17 @@
             "content": {
               "text/plain": {
                 "schema": {
-                  "$ref": "#/components/schemas/Employee"
+                  "$ref": "#/components/schemas/EmployeeDto"
                 }
               },
               "application/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Employee"
+                  "$ref": "#/components/schemas/EmployeeDto"
                 }
               },
               "text/json": {
                 "schema": {
-                  "$ref": "#/components/schemas/Employee"
+                  "$ref": "#/components/schemas/EmployeeDto"
                 }
               }
             }
@@ -199,20 +199,46 @@
             "type": "number",
             "format": "double"
           },
+          "efficiencyScore": {
+            "type": "number",
+            "format": "double"
+          },
           "rank": {
             "type": "string",
             "nullable": true,
             "readOnly": true
-          },
-          "efficiencyScore": {
-            "type": "number",
-            "format": "double"
           },
           "tasks": {
             "type": "array",
             "items": {
               "$ref": "#/components/schemas/WorkTask"
             },
+            "nullable": true
+          }
+        },
+        "additionalProperties": false
+      },
+      "EmployeeDto": {
+        "type": "object",
+        "properties": {
+          "name": {
+            "type": "string",
+            "nullable": true
+          },
+          "score": {
+            "type": "number",
+            "format": "double"
+          },
+          "position": {
+            "type": "string",
+            "nullable": true
+          },
+          "earned": {
+            "type": "number",
+            "format": "double"
+          },
+          "performaneLevel": {
+            "type": "string",
             "nullable": true
           }
         },
